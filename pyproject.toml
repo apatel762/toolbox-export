@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "toolbox-export"
+version = "0.1.0"
+description = "Export application metadata outside of a toolbox container."
+authors = ["Arjun Patel <relay-git-1LKQ1GqLp0Nn4@aspatel.com>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.scripts]
+janitor = "toolbox_export.toolbox-export:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyxdg = "^0.27"
+Pillow = "^9.1.1"
+"ruamel.yaml" = "^0.17.21"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
