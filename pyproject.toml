@@ -7,7 +7,7 @@ license = "AGPL-3.0-or-later"
 readme = "README.md"
 
 [tool.poetry.scripts]
-toolbox-export = "toolbox_export.toolbox-export:main"
+toolbox-export = "toolbox_export.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
