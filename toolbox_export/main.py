@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# This file was copied from https://github.com/A6GibKm/silverblue-tools/
+# This file was copied from toolbox-export in https://github.com/A6GibKm/silverblue-tools/
 
 import tempfile
 import os
